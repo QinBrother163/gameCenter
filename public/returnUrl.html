@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background-color: azure">
+<div id="biz1"></div>
+<a onclick="onKKK();">点击跳转...</a>
+</body>
+<script type="text/javascript">
+
+    function parseArgs(query) {
+        var start = query.indexOf('?');
+        if (start >= 0) {
+            query = query.slice(start + 1);
+        }
+        var result = {};
+        var arr = query.split('&');
+        for (var m = 0; m < arr.length; m++) {
+            var v = arr[m];
+            var tmp = v.split('=');
+            result[tmp[0]] = decodeURIComponent(tmp[1]);
+        }
+        return result;
+    }
+
+    var args = parseArgs(window.location.search);
+    document.getElementById('biz1').innerHTML = args.returnURL;
+
+    function onKKK() {
+        window.location.href = args.returnURL;
+    }
+    setTimeout(onKKK, 3000);
+
+</script>
+</html>

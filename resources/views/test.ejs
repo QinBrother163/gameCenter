@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>飞奔游戏-测试一下</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="page-view-size" content="1280*720">
+</head>
+<body>
+<div id="biz1"></div>
+<div>
+    <% var ejj;for(ejj in htmlWebpackPlugin.files.chunks){ %>
+    <li>
+        <%= ejj + '=' + htmlWebpackPlugin.files.chunks[ejj] %>
+    </li>
+    <% } %>
+</div>
+<script type="text/javascript" src="js/es5-shim.min.js"></script>
+<script type="text/javascript" src="js/es5-sham.min.js"></script>
+</body>
+</html>

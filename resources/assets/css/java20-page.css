@@ -1,0 +1,190 @@
+.java20-page {
+    position: absolute;
+    top: 179px;
+    width: 1280px;
+    height: 411px;
+    overflow: hidden;
+}
+
+.java20-item {
+    position: absolute;
+}
+
+#java20-item0 {
+    left: 83px;
+    top: 20px;
+}
+
+#java20-item1 {
+    left: 83px;
+    top: 214px;
+}
+
+#java20-item2 {
+    left:284px;
+    top: 20px;
+}
+
+#java20-item3 {
+    left: 496px;
+    top: 20px;
+}
+
+#java20-item4 {
+    left: 496px;
+    top: 214px;
+}
+
+#java20-item5 {
+    left: 661px;
+    top: 214px;
+}
+
+#java20-item6 {
+    left: 826px;
+    top: 20px;
+}
+
+#java20-item7 {
+    left: 826px;
+    top: 214px;
+}
+
+#java20-item8 {
+    left: 1027px;
+    top: 20px;
+}
+
+#java20-item9 {
+    left: 1239px;
+    top: 20px;
+}
+
+#java20-item10 {
+    left: 1239px;
+    top: 161px;
+}
+#java20-item11 {
+    left: 1416px;
+    top: 20px;
+}
+#java20-item12 {
+    left: 1647px;
+    top: 20px;
+}
+#java20-item13 {
+    left: 1647px;
+    top: 214px;
+}
+#java20-item14 {
+    left: 1820px;
+    top: 214px;
+}
+#java20-item15 {
+    left: 1994px;
+    top: 20px;
+}
+#java20-item16 {
+    left: 1994px;
+    top: 214px;
+}
+#java20-item17 {
+    left: 2194px;
+    top: 20px;
+}
+#java20-item18 {
+    left: 2194px;
+    top: 214px;
+}
+
+
+
+.java20-item-focus0 {
+    position: absolute;
+    left: -20.45px;
+    top: -18px;
+    width: 199px;
+    height: 159px;
+    background: url(../img/java20/focus_0.png) no-repeat;
+    display: none;
+}
+.java20-item-focus1 {
+    position: absolute;
+    left:  -20.5156px;
+    top: -23.515px;
+    width: 199px;
+    height: 278px;
+    background: url(../img/java20/focus_1.png) no-repeat;
+    display: none;
+}
+
+.java20-item-focus2 {
+    position: absolute;
+    left: -28.51569px;
+    top: -21px;
+    width: 388px;
+    height: 218px;
+    background: url(../img/java20/focus_2.png) no-repeat;
+    display: none;
+}
+
+.java20-item-focus3 {
+    position: absolute;
+    left: -23px;
+    top: -30.51px;
+    width: 259px;
+    height: 432px;
+    background: url(../img/java20/focus_3.png) no-repeat;
+    display: none;
+}
+
+.java20-item-focus4 {
+    position: absolute;
+    left: -20.5px;
+    top: -21px;
+    width: 195px;
+    height: 219px;
+    background: url(../img/java20/focus_4.png) no-repeat;
+    display: none;
+}
+.java20-item-focus5 {
+    position: absolute;
+    left: -22px;
+    top: -21.2px;
+    width: 225px;
+    height: 218px;
+    background: url(../img/java20/focus_5.png) no-repeat;
+    display: none;
+}
+
+.java20-item-focus6 {
+    position: absolute;
+    left: -19.5px;
+    top: -21.4px;
+    width: 185px;
+    height: 218px;
+    background: url(../img/java20/focus_6.png) no-repeat;
+    display: none;
+}
+.java20-item-focus7 {
+    position: absolute;
+    left: -22px;
+    top: -30.5155px;
+    width: 238px;
+    height: 432px;
+    background: url(../img/java20/focus_7.png) no-repeat;
+    display: none;
+}
+.java20-item-focus8 {
+    position: absolute;
+    left: -28.515px;
+    top: -21.2px;
+    width: 369px;
+    height: 218px;
+    background: url(../img/java20/focus_8.png) no-repeat;
+    display: none;
+}
+
+.java20-item-img {
+    position: absolute;
+}

@@ -1,0 +1,57 @@
+.home-menu {
+    position: absolute;
+    left: 960px;
+    top: 54px;
+    width: 256px;
+    height: 64px;
+}
+
+.menu-btn {
+    position: absolute;
+    width: 43px;
+    height: 58px;
+    top: 0;
+}
+
+.menu-btn-focus {
+    position: absolute;
+    width: 43px;
+    height: 58px;
+    top: 0;
+}
+
+#menu-btn0 {
+    left: 0;
+}
+
+#menu-btn1 {
+    left: 64px;
+}
+
+#menu-btn2 {
+    left: 128px;
+}
+
+#menu-btn3 {
+    left: 192px;
+}
+#menu-btn4 {
+    left: 255px;
+}
+
+
+.menu-btn img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 43px;
+    height: 58px;
+}
+
+.menu-btn-focus img {
+    position: absolute;
+    left: -8.1px;
+    top: -8.9px;
+    width: 59.3px;
+    height: 75.8px;
+}

@@ -1,0 +1,286 @@
+.lock-layout {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1280px;
+    height: 720px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.lock-bg {
+    position: absolute;
+    left: 269px;
+    top: 150px;
+    width: 588px;
+    height: 402px;
+    background: transparent url("../img/childLock/bg.png") no-repeat;
+}
+
+.lock-title-0 , .lock-title-1 {
+    position: absolute;
+    left: 217px;
+    top: 30px;
+    width: 143px;
+    height: 31px;
+}
+
+.lock-title-0{/*设置铜锁*/
+    background: transparent url("../img/childLock/title_0.png") center no-repeat;
+}
+
+.lock-title-1 { /*验证铜锁*/
+    background: transparent url("../img/childLock/title_1.png") center no-repeat;
+}
+
+.lock-input {
+    position: absolute;
+    left: 32px;
+    top: 160px;
+    width: 463px;
+    height: 53px;
+}
+
+.lock-label-0 { /*输入密码*/
+    position: absolute;
+    top: 18px;
+    width: 143px;
+    height: 31px;
+    background: transparent url("../img/childLock/tips_0.png") no-repeat;
+}
+
+.lock-label-1 { /*确认密码*/
+    position: absolute;
+    top: 18px;
+    width: 143px;
+    height: 31px;
+    background: transparent url("../img/childLock/tips_1.png") no-repeat;
+}
+
+.lock-text {
+    position: absolute;
+    top: 7px;
+    left: 152px;
+    width: 327px;
+    height: 56px;
+
+    text-align: center;
+    line-height: 72px;
+    font-size: 56px;
+    color: #ffffff;
+    background: transparent url("../img/childLock/input.png") no-repeat;
+}
+
+.lock-tips {
+    position: absolute;
+    left: 6%;
+    top: 284px;
+    width: 80%;
+    text-align: left;
+    line-height: 32px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/*=========================小键盘=============================*/
+.lock-keyboard {
+    position: absolute;
+    left: 858px;
+    top: 180px;
+    width: 295px;
+    height: 350px;
+    background: transparent url("../img/childLock/keyboard.png") no-repeat;
+}
+
+.lock-num-bg {
+    position: absolute;
+    left: 20px;
+    top: 32px;
+    width: 295px;
+    height: 350px;
+    /*background: rgba(0, 0, 255, 0.3);*/
+}
+
+.lock-num {
+    position: absolute;
+    width: 83px;
+    height: 72px;
+    background: transparent url("../img/childLock/num_bg_0.png");
+}
+
+.lock-num-focus {
+    position: absolute;
+    left:-9px;
+    top: -9px;
+    width: 102px;
+    height: 91px;
+    background: url(../img/childLock/num-focus.png) no-repeat;
+    display: none;
+}
+
+#lock-num-1 {
+    left: 0;
+    top: 0;
+}
+
+#lock-num-2 {
+    left: 85px;
+    top: 0;
+}
+
+#lock-num-3 {
+    left: 170px;
+    top: 0;
+}
+
+#lock-num-4 {
+    left: 0;
+    top: 74px;
+}
+
+#lock-num-5 {
+    left: 85px;
+    top: 74px;
+}
+
+#lock-num-6 {
+    left: 170px;
+    top: 74px;
+}
+
+#lock-num-7 {
+    left: 0;
+    top: 148px;
+}
+
+#lock-num-8 {
+    left: 85px;
+    top: 148px;
+}
+
+#lock-num-9 {
+    left: 170px;
+    top: 148px;
+}
+
+#lock-num-10 {
+    left: 0;
+    top: 222px;
+}
+
+#lock-num-0 {
+    left: 85px;
+    top: 222px;
+}
+
+#lock-num-11 {
+    left: 170px;
+    top: 222px;
+}
+
+.lock-num-img {
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    width: 33px;
+    height: 35px;
+    font-family: "Microsoft YaHei UI";
+    color: #ffffff;
+    font-size: 40px;
+}
+.lock-num-img span{
+    position: absolute;
+    left: 3px;
+    top: -13px;
+}
+
+
+    /*#lock-num-1 .lock-num-img {*/
+    /*background: transparent url("../img/childLock/1.png") no-repeat;*/
+/*}*/
+
+/*#lock-num-2 .lock-num-img {*/
+    /*background: transparent url("../img/childLock/2.png") no-repeat;*/
+/*}*/
+
+/*#lock-num-3 .lock-num-img {*/
+    /*background: transparent url("../img/childLock/3.png") no-repeat;*/
+/*}*/
+
+/*#lock-num-4 .lock-num-img {*/
+    /*background: transparent url("../img/childLock/4.png") no-repeat;*/
+/*}*/
+
+/*#lock-num-5 .lock-num-img {*/
+    /*background: transparent url("../img/childLock/5.png") no-repeat;*/
+/*}*/
+
+/*#lock-num-6 .lock-num-img {*/
+    /*background: transparent url("../img/childLock/6.png") no-repeat;*/
+/*}*/
+
+/*#lock-num-7 .lock-num-img {*/
+    /*background: transparent url("../img/childLock/7.png") no-repeat;*/
+/*}*/
+
+/*#lock-num-8 .lock-num-img {*/
+    /*background: transparent url("../img/childLock/8.png") no-repeat;*/
+/*}*/
+
+/*#lock-num-9 .lock-num-img {*/
+    /*background: transparent url("../img/childLock/9.png") no-repeat;*/
+/*}*/
+
+#lock-num-10 .lock-num-img {
+    background: transparent url("../img/childLock/num_back.png") no-repeat;
+}
+
+/*#lock-num-0 .lock-num-img {*/
+    /*background: transparent url("../img/childLock/0.png") no-repeat;*/
+/*}*/
+
+#lock-num-11 .lock-num-img {
+    background: transparent url("../img/childLock/num_delete.png") no-repeat;
+}
+
+/*    设置童锁菜单    */
+.lock-menu-bg {
+    position: absolute;
+    left: 396px;
+    top: 150px;
+    width: 588px;
+    height: 402px;
+    background: transparent url("../img/childLock/bg.png") no-repeat;
+}
+
+.lock-btn {
+    position: absolute;
+    left: 126px;
+    width: 306px;
+    height: 88px;
+    background: url(../img/childLock/menu/btn.png);
+    text-align: center;
+}
+
+.lock-btn span{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 3.3;
+}
+
+#lock-btn0 {
+    top: 136px;
+}
+
+#lock-btn1 {
+    top: 96px;
+}
+
+#lock-btn2 {
+    top: 193px;
+}
+
+.lock-btn-focus{
+    background: url(../img/childLock/menu/btn-focus.png) !important;
+}

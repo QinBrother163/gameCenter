@@ -1,0 +1,363 @@
+.turntable-table{
+    width: 530px;
+    height: 529px;
+    background: url("../img/turntable/tableBg.png");
+    position: absolute;
+    top: 104px;
+    left:659px;
+}
+.turntable-pointer{
+    width: 62px;
+    height: 60px;
+    /*background:url("../img/point.png");*/
+    position: absolute;
+    left: 193px;
+    top: 139px;
+    z-index: 444;
+}
+
+#turntable-text{
+    width: 62px;
+    height: 60px;
+    position: absolute;
+    z-index: 777;
+    left: 42px;
+    top: 91px;
+}
+.turntable-pointer img{
+    width: 149px;
+    height: 149px;
+    position: absolute;
+    left:-2px ;
+    top: 50px;
+    z-index: 777;
+}
+
+.turntable-item{
+    position: absolute;
+    width: 131px;
+    height: 136px;
+    text-align: center;
+}
+#turntable-item0{
+    left: 193px;
+    top: 37px;
+}
+#turntable-item1{
+    left: 339px;
+    top: 112px;
+}
+#turntable-item2{
+    left: 344px;
+    top: 275px;
+}
+#turntable-item3{
+    left: 196px;
+    top: 356px;
+}
+#turntable-item4{
+    left: 58px;
+    top: 285px;
+}
+#turntable-item5{
+    left: 58px;
+    top: 120px;
+}
+
+.turntable-focus{
+    position: absolute;
+    width: 530px;
+    height: 529px;
+    z-index: 10;
+    display: none;
+}
+
+#turntable-focus0{
+    background: url("../img/turntable/focus0.png");
+    top: -38px;
+    left: -193px;
+    display: block;
+}
+
+#turntable-focus1{
+    background: url("../img/turntable/focus1.png");
+    top: -112px;
+    left: -340px;
+}
+
+#turntable-focus2{
+    background: url("../img/turntable/focus2.png");
+    top: -276px;
+    left: -344px;
+}
+
+#turntable-focus3{
+    background: url("../img/turntable/focus3.png");
+    top: -357px;
+    left: -196px;
+}
+
+#turntable-focus4{
+    background: url("../img/turntable/focus4.png");
+    top: -287px;
+    left: -59px;
+}
+
+#turntable-focus5{
+    background: url("../img/turntable/focus5.png");
+    top: -120px;
+    left: -59px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.winners_wrap {
+    width: 705px;
+    height: 268px;
+    position: absolute;
+    left: 176px;
+    top: 117px;
+    z-index: -1;
+    color: #fff;
+    background: url("../img/turntable/bg_txt.png");
+}
+.winners_header{
+    padding-top: 20px;
+}
+.winners_header_nav{
+    width: 94px;
+    height: 2px;
+    margin: 0 auto;
+}
+
+ul, li {
+    list-style: none;
+    display: block;
+}
+
+#scrollBox {
+    height: 170px;
+    width: 400px;
+    margin: 40px 60px;
+    overflow: hidden;
+}
+
+#scrollBox #con1 #con2 {
+    width: 400px;
+    float: left;
+}
+
+#scrollBox li {
+    height: 15px;
+    line-height:15px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#scrollBox li span{
+    margin-left:5px;
+}
+
+.notice{
+    width: 430px;
+    height: 200px;
+    position: absolute;
+    left: 197px;
+    top: 389px;
+    font-family: "Microsoft YaHei UI";
+}
+
+.title{
+    width: 110px;
+    height: 25px;
+    background: url("../img/turntable/title_bg.png") no-repeat;
+    position: absolute;
+}
+#notice-title{
+    top: 10px;
+    left: 10px;
+}
+.title span{
+    color: #F6EA6F;
+    font-size: 20px;
+    position: absolute;
+    left: 23px;
+    top: -4px;
+    font-family: "Microsoft YaHei UI";
+    font-weight: bold;
+}
+
+.notice-content{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
+
+.notice-content p{
+    line-height: 1.5;
+    color: #ffffff;
+    font-size: 14px;
+}
+.Myprize{
+    width: 590px;
+    height: 120px;
+    position: absolute;
+    top: 593px;
+    left: 197px;
+}
+
+#prize-title{
+    top: 10px;
+    left: 10px;
+}
+
+#prize-content{
+    width: 325px;
+    height: 120px;
+    position: absolute;
+    left: 126px;
+    overflow: hidden;
+}
+
+.prize-item{
+    position: absolute;
+}
+
+#prize-btn{
+    width: 150px;
+    height: 65px;
+    position: absolute;
+    left: 450px;
+}
+#prize-btn span{
+    font-size: 20px;
+    font-family: "Microsoft YaHei UI";
+    font-weight: bold;
+    color: #b3211b;
+    position: absolute;
+}
+.prize-btn{
+    background: url("../img/turntable/btn2.png") no-repeat;
+}
+.prize-btn span{
+    top: 18px;
+    left: 30px;
+}
+.prize-btn-focus{
+    background: url("../img/turntable/btn2-foucs.png") no-repeat;
+}
+
+.prize-btn-focus span{
+    top: 19px;
+    left: 34px;
+}
+
+
+.turn-bill-bg {
+    position: absolute;
+    width: 834px;
+    height: 520px;
+    left: 225px;
+    top: 80px;
+    background: transparent url(../img/turntable/turnBillGb.png) no-repeat;
+    z-index: 10000;
+    /*display: none;*/
+}
+.turn-bill-select {
+    position: absolute;
+    width: 826px;
+    height: 92px;
+    background: url(../img/turntable/turnBillSelect.png) no-repeat;
+}
+.bill-line {
+    position: absolute;
+    left: 31px;
+    width: 777px;
+    height: 66px;
+
+    font-size: 20px;
+    color: #fff6b8;
+    font-size: 20px;
+    font-family: "Microsoft YaHei UI";
+    text-align: center;
+    line-height: 72px;
+}
+.turnBillTable{
+    color: #F6EA6F;
+}
+.turnBillDate,.turnBillName,.turnBillType{
+    font-size: 25px;
+    font-family: "Microsoft YaHei UI";
+    position: absolute;
+}
+.turnBillDate{
+    top: 10px;
+    left: 120px;
+}
+.turnBillName{
+    top: 10px;
+    left: 440px;
+}
+.turnBillType{
+    top: 10px;
+    left: 705px;
+}
+
+
+
+#turnBill-line0 {
+    top: 60px;
+    left:22px;
+    /*background: bisque;*/
+}
+#turnBill-line1 {
+     top: 125px;
+     left:22px;
+     /*background: bisque;*/
+ }
+#turnBill-line2 {
+    top: 192px;
+    left:22px;
+    /*background: bisque;*/
+}
+#turnBill-line3 {
+    top: 258px;
+    left:22px;
+    /*background: bisque;*/
+}
+
+#turnBill-line4 {
+    top: 325px;
+    left:22px;
+    /*background: bisque;*/
+}
+#turnBill-line5 {
+    top: 394px;
+    left:22px;
+    /*background: bisque;*/
+}
+#turnBill-line6 {
+    top: 450px;
+    left:33px;
+    /*background: olivedrab;*/
+    color: #ffffff;
+}
+.bill-name1 {
+    position: absolute;
+    left: 312px;
+    width: 272px;
+    height: 72px;
+}
+.bill-amount1 {
+    position: absolute;
+    left: 590px;
+    width: 246px;
+    height: 72px;
+}

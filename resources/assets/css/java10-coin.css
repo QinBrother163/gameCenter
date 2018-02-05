@@ -1,0 +1,28 @@
+.java10-coin {
+    position: absolute;
+    left: 577px;
+    top: 70px;
+    width: 136px;
+    height: 37px;
+    background: transparent url(../img/coin/bg.png) no-repeat;
+}
+
+.coin-icon {
+    position: absolute;
+    left: 5px;
+    top: -2px;
+    width: 31px;
+    height: 32px;
+    background: transparent url(../img/coin/icon.png) no-repeat;
+}
+
+.coin-text {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 124px;
+    height: 30px;
+    color: #ffff00;
+    font-size: 22px;
+    text-align: right;
+}

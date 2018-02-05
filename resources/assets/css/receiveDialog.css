@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.receiveDialog-bg{
+    width: 340px;
+    height: 430px;
+    background-color: #d5372e;
+    border: 5px solid #b3211b;
+    border-radius: 10px;
+    position: absolute;
+    top: 133px;
+    left:542px;
+}
+.receiveDialog-title{
+    text-align: center;
+    margin: 30px 0;
+}
+.receiveDialog-text{
+    margin: 0 auto;
+}
+.prize-txt{
+    padding: 0 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.receiveDialog-prize{
+    color: #fef164;
+}
+.prizeImg{
+    position: relative;
+    width: 300px;
+    height: 145px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    background-color: #a9231c;
+}
+.prizeImg img{
+    position: absolute;
+    width: 122px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -61px;
+}
+.receiveDialogBtn_1,.receiveDialogBtn_0{
+    float: left;
+    width: 152px;
+    height: 67px;
+    text-align: center;
+    line-height: 67px;
+}
+.receiveDialogBtn_1{
+    margin-left: 15px;
+}
+.receiveDialogBtn_0{
+    margin: 6px 0 0 10px;
+}
+.receiveDialogBtn_1{
+    background: url("../img/turntable/btn2-foucs.png") no-repeat;
+}
+.receiveDialogBtn_0{
+    background: url("../img/turntable/btn2.png") no-repeat;
+}

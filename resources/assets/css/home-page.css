@@ -1,0 +1,71 @@
+.home-page {
+
+}
+
+.home-item {
+    position: absolute;
+    width: 221.85px;
+    height: 248.4px;
+    z-index: 0;
+}
+
+#home-item0 {
+    width: 493px;
+    height: 552px;
+    left: 400px;
+    top: 70px;
+    z-index: 1;
+    display: block;
+}
+
+#home-item1 {
+    left:65px;
+    top:220px;
+}
+
+#home-item2 {
+    left: 380px;
+    top: 185px;
+}
+
+#home-item3 {
+    left: 750px;
+    top: 185px;
+}
+
+#home-item4 {
+    left: 920px;
+    top: 220px;
+}
+
+#text-div{
+    position: absolute;
+    width: 250px;
+    height: 62px;
+    left:520px;
+    top: 602px;
+}
+
+/*.home-item-focus0 {*/
+    /*position: absolute;*/
+    /*left: -36px;*/
+    /*top: -5px;*/
+    /*width: 381px;*/
+    /*height: 450px;*/
+    /*background: url(../img/home/focus_0.png);*/
+    /*display: none;*/
+/*}*/
+
+/*.home-item-focus1 {*/
+    /*position: absolute;*/
+    /*left: -33px;*/
+    /*top: -31px;*/
+    /*width: 295px;*/
+    /*height: 246px;*/
+    /*background: url(../img/home/focus_1.png);*/
+    /*display: none;*/
+/*}*/
+
+.home-item-img {
+    position: absolute;
+}

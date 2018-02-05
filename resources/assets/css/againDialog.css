@@ -1,0 +1,38 @@
+.Againdialog-bg{
+    width: 415px;
+    height: 425px;
+    background: #D5372E;
+    border: 5px solid #B3211B;
+    position: absolute;
+    left: 495px;
+    top: 132px;
+    z-index: 9999;
+    font-family: "Microsoft YaHei UI";
+    font-weight: bold;
+}
+
+.again-img{
+    width: 147px;
+    height: 46px;
+    background:url("../img/turntable/dialogText.png") no-repeat;
+    position: absolute;
+    left: 139px;
+    top: 39px;
+}
+
+.Againdialog-text{
+    width: 450px;
+    height: 150px;
+    font-size: 26px;
+    position:absolute;
+    top: 140px;
+    left: 85px;
+}
+
+.Againdialog-text p{
+    color: #ffffff;
+}
+
+.Againdialog-text span{
+    color: #F8DA5D;
+}

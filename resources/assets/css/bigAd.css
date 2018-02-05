@@ -1,0 +1,85 @@
+#big-ad-16 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 720px;
+    z-index: 10000;
+}
+
+.big-ad-16 {
+    background: url(../img/bigAd/16-bg.jpg);
+}
+
+#big-ad-16-btn-0 {
+    position: absolute;
+    top: 575px;
+    left: 377px;
+    width: 218px;
+    height: 88px;
+    background: url(../img/bigAd/16-btn-0.png);
+    display: block;
+}
+
+#big-ad-16-btn-1 {
+    position: absolute;
+    top: 586px;
+    left: 717px;
+    width: 190px;
+    height: 80px;
+    background: url(../img/bigAd/16-btn-1.png);
+    display: none;
+}
+
+#big-ad-29 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 720px;
+    z-index: 10000;
+}
+
+.big-ad-29 {
+    background: url(../img/bigAd/29-bg.jpg);
+}
+
+.big-ad-99 {
+    background: url(../img/bigAd/99-bg.jpg);
+}
+
+.big-ad-170 {
+    background: url(../img/bigAd/170-bg.jpg);
+}
+
+#big-ad-btn-0 {
+    position: absolute;
+    top: 593px;
+    left: 399px;
+    width: 160px;
+    height: 64px;
+}
+
+#big-ad-btn-1 {
+    position: absolute;
+    top: 593px;
+    left: 722px;
+    width: 160px;
+    height: 64px;
+}
+
+.big-ad-btn-0 {
+    background: url(../img/bigAd/btn-0.png);
+}
+
+.big-ad-btn-0-focus {
+    background: url(../img/bigAd/btn-0-focus.png);
+}
+
+.big-ad-btn-1 {
+    background: url(../img/bigAd/btn-1.png);
+}
+
+.big-ad-btn-1-focus {
+    background: url(../img/bigAd/btn-1-focus.png);
+}

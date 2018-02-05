@@ -1,0 +1,43 @@
+.recharge-page {
+
+}
+
+.recharge-item {
+    position: absolute;
+    width: 264px;
+    height: 386px;
+}
+
+#recharge-item0 {
+    left: 59px;
+    top: 189px;
+}
+
+#recharge-item1 {
+    left: 358px;
+    top: 189px;
+}
+
+#recharge-item2 {
+    left: 657px;
+    top: 189px;
+}
+
+#recharge-item3 {
+    left: 956px;
+    top: 189px;
+}
+
+.recharge-item-focus0 {
+    position: absolute;
+    left: -17px;
+    top: -23px;
+    width: 298px;
+    height: 427px;
+    background: url(../img/recharge/focus_0.png);
+    display: none;
+}
+
+.recharge-item-img {
+    position: absolute;
+}

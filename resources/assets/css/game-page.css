@@ -1,0 +1,77 @@
+.game-page {
+
+}
+
+.game-item {
+    position: absolute;
+}
+
+#game-item0 {
+    width: 249px;
+    height: 404px;
+    left: 59px;
+    top: 143px;
+}
+
+#game-item1 {
+    width: 249px;
+    height: 404px;
+    left: 326px;
+    top: 143px;
+}
+
+#game-item2 {
+    width: 337px;
+    height: 200px;
+    left: 593px;
+    top: 153px;
+}
+
+#game-item3 {
+    width: 337px;
+    height: 177px;
+    left: 593px;
+    top: 371px;
+}
+
+#game-item4 {
+    width: 249px;
+    height: 404px;
+    left: 948px;
+    top: 143px;
+}
+
+.game-item-focus0 {
+    position: absolute;
+    left: -25px;
+    top: 3.3px;
+    width: 297px;
+    height: 433px;
+    background: url(../img/game/focus_0.png);
+    display: none;
+}
+
+.game-item-focus1 {
+    position: absolute;
+    left: -29px;
+    top: 2.4px;
+    width: 395px;
+    height: 219px;
+    background: url(../img/game/focus_1.png);
+    display: none;
+}
+.game-item-focus2 {
+    position: absolute;
+    left: -29px;
+    top: -21px;
+    width: 395px;
+    height: 219px;
+    background: url(../img/game/focus_1.png);
+    display: none;
+}
+
+
+
+.game-item-img {
+    position: absolute;
+}

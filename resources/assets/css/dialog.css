@@ -1,0 +1,99 @@
+.dialog-layout {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    display: none;
+    font-family: "Microsoft YaHei UI";
+    font-weight: bold;
+}
+
+.dialog-bg {
+    position: relative;
+    width: 588px;
+    height: 402px;
+    left: 365px;
+    top: 155px;
+    background: transparent url(../img/dialog/bg.png) no-repeat;
+    z-index: 10000;
+    display: none;
+}
+
+
+
+.dialog-title {
+    font-size: xx-large;
+    color: #ffffff;
+    text-align: center;
+    width: 588px;
+    position: absolute;
+    top: 18px;
+}
+
+.dialog-text {
+    position: absolute;
+    left: -15px;
+    top: 180px;
+    width: 588px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 32px;
+}
+
+.dialogBtn_0 {
+    position: absolute;
+    width: 164px;
+    height: 69px;
+    text-align: center;
+    line-height: 62px;
+    font-size: 22px;
+    color: #ffffff;
+    background: transparent url(../img/dialog/btn0.png) no-repeat;
+}
+.dialogBtn_1 {
+    position: absolute;
+    width: 183px;
+    height: 88px;
+    text-align: center;
+    line-height: 87px;
+    font-size: 22px;
+    color: #ffffff;
+    background: transparent url(../img/dialog/btn1.png) no-repeat;
+}
+.dialog-Btn_focus{
+    top:70% !important;
+}
+
+
+#dialogBtn_006 {
+    width: 168px;
+    height: 91px;
+}
+
+#dialogBtn_006_1 {
+    width: 158px;
+    height: 81px;
+}
+
+
+.dialogBtn_006 {
+    position: absolute;
+    top: -21px;
+    left: -21px;
+    width: 168px;
+    height: 91px;
+    background: transparent url(../img/dialog/1_00006.png) no-repeat;
+}
+
+.dialogBtnEnlarge_006_1 {
+    position: absolute;
+    top: -0.6em;
+    left: -0.6em;
+    width: 158px;
+    height: 81px;
+    background: transparent url(../img/dialog/1_00006.png) no-repeat;
+}

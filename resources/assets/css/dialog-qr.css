@@ -1,0 +1,19 @@
+.dialog-qr-img {
+    position: absolute;
+    top: 96px;
+    left: 204px;
+    width: 180px;
+    height: 180px;
+}
+
+.dialog-qr-text {
+    position: absolute;
+    left: -104px;
+    top: 429px;
+    width: 720px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 28px;
+}

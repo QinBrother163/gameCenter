@@ -1,0 +1,144 @@
+.java10-page {
+    position: absolute;
+    left: 59px;
+    top: 177px;
+    width: 1138px;
+    height: 371px;
+}
+
+.java10-item {
+    position: absolute;
+}
+
+#java10-item0 {
+    width: 159px;
+    height: 123px;
+    left: 0;
+    top: 0px;
+}
+
+#java10-item1 {
+    width: 159px;
+    height: 230px;
+    left: 0px;
+    top: 141px;
+}
+
+#java10-item2 {
+    width: 213px;
+    height: 370px;
+    left: 177px;
+    top: 0px;
+}
+
+#java10-item3 {
+    width: 330px;
+    height: 176px;
+    left: 408px;
+    top: 0;
+}
+
+#java10-item4 {
+    width: 155px;
+    height: 177px;
+    left: 408px;
+    top: 194px;
+}
+
+#java10-item5 {
+    width: 156px;
+    height: 177px;
+    left: 581px;
+    top: 194px;
+}
+
+#java10-item6 {
+    width: 182px;
+    height: 176px;
+    left: 755px;
+    top: 0;
+}
+
+#java10-item7 {
+    width: 182px;
+    height: 176px;
+    left: 755px;
+    top: 194px;
+}
+
+#java10-item8 {
+    width: 182px;
+    height: 176px;
+    left: 955px;
+    top: 0;
+}
+
+#java10-item9 {
+    width: 182px;
+    height: 176px;
+    left: 955px;
+    top: 194px;
+}
+
+.java10-item-focus0 {
+    position: absolute;
+    left: -20.45px;
+    top: -18px;
+    width: 199px;
+    height: 159px;
+    background: url(../img/java10/focus_0.png) no-repeat;
+    display: none;
+}
+
+.java10-item-focus1 {
+    position: absolute;
+    left: -20.5px;
+    top: -23.5px;
+    width: 199px;
+    height: 278px;
+    background: url(../img/java10/focus_1.png) no-repeat;
+    display: none;
+}
+
+.java10-item-focus2 {
+    position: absolute;
+    left: -28.51569px;
+    top: -21px;
+    width: 388px;
+    height: 218px;
+    background: url(../img/java10/focus_2.png) no-repeat;
+    display: none;
+}
+
+.java10-item-focus3 {
+    position: absolute;
+    left: -23px;
+    top: -30.2px;
+    width: 259px;
+    height: 432px;
+    background: url(../img/java10/focus_3.png) no-repeat;
+    display: none;
+}
+
+.java10-item-focus4 {
+    position: absolute;
+    left: -20.5px;
+    top: -21px;
+    width: 195px;
+    height: 219px;
+    background: url(../img/java10/focus_4.png) no-repeat;
+    display: none;
+}
+.java10-item-focus5 {
+    position: absolute;
+    left:-21.5165px;
+    top: -21.4px;
+    width: 225px;
+    height: 218px;
+    background: url(../img/java10/focus_5.png) no-repeat;
+    display: none;
+}
+
+.java10-item-img {
+    position: absolute;
+}
